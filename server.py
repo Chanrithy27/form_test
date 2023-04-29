@@ -16,8 +16,6 @@ def create_user():
 
 @app.route("/show")
 def show_user():
-    print("Showing the user information from the form")
-    print(request.form)
     return render_template("show.html")
 
 if __name__ == "__main__":
